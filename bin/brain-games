@@ -3,6 +3,6 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use BrainGames\Cli;
+use BrainGames\Engine;
 
-BrainGames\Cli\run();
+BrainGames\Engine\run();
